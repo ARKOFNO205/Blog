@@ -8,13 +8,21 @@ html,
 body,
 .wrapper {
   height: 100%;
-  margin: 10px;
-  padding: 10;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f8ef;
+    color: #001b44;
+  }
+
+
+h2,
+h3 {
+  text-align: right;
 }
 
 .wrapper {
@@ -23,3 +31,42 @@ body {
   padding-right: 20px;
 }
 
+
+
+button {
+    background-color: #001b44;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin: 0.6em auto;
+    display: block;
+}
+
+.card {
+    background-color:	#FFFFE0;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+    margin: 60px auto;
+    padding: 20px;
+    width: 60vw;
+    display: block;
+}
+
+.card::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+  
+  
